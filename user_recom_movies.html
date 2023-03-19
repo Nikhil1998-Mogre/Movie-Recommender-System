@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html >
+<head>
+    {% for i in range(5) %}
+    <body><h1>{{ output['movies_name'][i] }}</h1></body>
+    <div class="'mt-5">
+        <img src="{{ output['movies_poster'][i] }}" style="width: 200px;">
+    </div>
+    {% endfor %}
+</head>
+<body>
+
+</body>
+</html>
